@@ -8,7 +8,7 @@ Built with [@pika/pack].
 
 ## Usage
 
-Run your built tool: `yarn start`
+Run cli: `yarn start`
 
 Release your package: `yarn release`
 
