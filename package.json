@@ -7,12 +7,14 @@
     "url": "https://github.com/jakeklassen/typescript-cli-app-base.git"
   },
   "scripts": {
-    "build": "pack build",
+    "build": "pika build",
     "lint": "tslint --project .",
-    "start": "ts-node src/index.ts",
+    "release": "pika publish",
+    "prestart": "yarn build",
+    "start": "node pkg/dist-node/index.bin.js",
     "test": "jest --passWithNoTests",
     "test:coverage": "jest --coverage",
-    "version": "pack build"
+    "version": "pika build"
   },
   "author": "Jake Klassen <jklassendev@gmail.com>",
   "license": "MIT",
