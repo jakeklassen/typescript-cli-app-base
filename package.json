@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/jakeklassen/typescript-cli-app-base.git"
   },
+  "homepage": "https://github.com/jakeklassen/typescript-cli-app-base#readme",
+  "bugs": {
+    "url": "https://github.com/jakeklassen/typescript-cli-app-base/issues"
+  },
   "scripts": {
     "build": "pika build",
     "lint": "tslint --project .",
